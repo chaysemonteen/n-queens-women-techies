@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+/* For smaller screens, display one card per column */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mb-8 {
+    margin-bottom: 1rem; /* Adjust as needed */
+  }
+  .mx-4 {
+    margin-left: 0.5rem; /* Adjust as needed */
+    margin-right: 0.5rem; /* Adjust as needed */
+  }
+  .card {
+    width: 80vw;
+  }
+  .search {
+    width: 65vw;
+  }
+  .searchButton {
+    width: 45vw;
+    font-size: 100%;
+  }
+}
+
+body, html {
+  overflow-x: hidden;
+}
