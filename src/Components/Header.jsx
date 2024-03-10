@@ -11,10 +11,11 @@ const Header = () => {
 
         {/* Navigation links in the center */}
         <nav className="flex flex-grow justify-center">
-          <a href="#" className="text-black mx-4">About Us</a>
-          <a href="#" className="text-black mx-4">Features</a>
-          <a href="#" className="text-black mx-4">Home</a>
-          <a href="#" className="text-black mx-4">Generate</a>
+          <a href="#" className="text-black mx-4">Microaggression Detection</a>
+          <a href="#" className="text-black mx-4">Anonymous Report</a>
+          <a href="#" className="text-black mx-4">Legal Guidance Chatbot</a>
+          <a href="#" className="text-black mx-4">Newsboard</a>
+          <a href="#" className="text-black mx-4">Blog</a>
         </nav>
 
         {/* Login and Sign Up buttons on the right */}
