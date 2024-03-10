@@ -12,6 +12,8 @@ import HRPortal from './components/HRPortal';
 import Chatbot from './components/Chatbot';
 import SignUp from './components/SignUp';
 import Login from './components/Login';
+import SignUpHR from './components/SignUpHR';
+import LoginHR from './components/LoginHR';
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
         <Route path="/chatbot" element={<Chatbot />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signuphr" element={<SignUpHR />} />
+        <Route path="/loginhr" element={<LoginHR />} />
       </Routes>
     </Router>
   );
